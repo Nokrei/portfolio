@@ -45,7 +45,7 @@ const ProjectCard = (props) => {
               <img
                 className="portfolio__container--project--tech"
                 src={props.stack1}
-                alt="HTML"
+               
               />
               <span className="tech__image--tooltip">{props.tooltip1}</span>
             </div>
@@ -53,7 +53,7 @@ const ProjectCard = (props) => {
               <img
                 className="portfolio__container--project--tech"
                 src={props.stack2}
-                alt="CSS"
+                
               />
               <span className="tech__image--tooltip">{props.tooltip2}</span>
             </div>
@@ -61,7 +61,7 @@ const ProjectCard = (props) => {
               <img
                 className="portfolio__container--project--tech"
                 src={props.stack3}
-                alt="React"
+                
               />
               <span className="tech__image--tooltip">{props.tooltip3}</span>
             </div>
@@ -69,7 +69,7 @@ const ProjectCard = (props) => {
               <img
                 className="portfolio__container--project--tech"
                 src={props.stack4}
-                alt="JS"
+                
               />
               <span className="tech__image--tooltip">{props.tooltip4}</span>
             </div>
@@ -77,7 +77,7 @@ const ProjectCard = (props) => {
               <img
                 className="portfolio__container--project--tech"
                 src={props.stack5}
-                alt="NPM"
+                
               />
               <span className="tech__image--tooltip">{props.tooltip5}</span>
             </div>
@@ -85,7 +85,7 @@ const ProjectCard = (props) => {
               <img
                 className="portfolio__container--project--tech"
                 src={props.stack6}
-                alt="NodeJS"
+                
               />
               <span className="tech__image--tooltip">{props.tooltip6}</span>
             </div>
@@ -93,7 +93,7 @@ const ProjectCard = (props) => {
               <img
                 className="portfolio__container--project--tech"
                 src={props.stack7}
-                alt="MongoDB"
+                
               />
               <span className="tech__image--tooltip">{props.tooltip7}</span>
             </div>
@@ -101,7 +101,7 @@ const ProjectCard = (props) => {
               <img
                 className="portfolio__container--project--tech"
                 src={props.stack8}
-                alt="Webpack"
+                
               />
               <span className="tech__image--tooltip">{props.tooltip8}</span>
             </div>
@@ -109,7 +109,7 @@ const ProjectCard = (props) => {
               <img
                 className="portfolio__container--project--tech"
                 src={props.stack9}
-                alt="ExpressJS"
+                
               />
               <span className="tech__image--tooltip">{props.tooltip9}</span>
             </div>
