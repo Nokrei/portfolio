@@ -447,6 +447,23 @@ footer {
 .footer__icons :nth-child(1) {
   margin-right: 10px;
 }
+@media only screen and (min-width: 1026px) and (max-width: 1551px) {
+.portfolio__container--project--image{
+  width:40vw;
+  height: 60vh
+}
+.tech{
+  width:40vw;
+  height: 60vh;
+  padding:0
+}
+.portfolio__container--desc{
+  height:6em
+}
+.portfolio__container--project--tech{
+  height:3vw
+}
+}
 @media only screen and (max-width: 1025px) {
   .navigation {
     width: 100%;
