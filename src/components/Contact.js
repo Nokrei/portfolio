@@ -115,7 +115,7 @@ const Contact = () => {
 
   return (
     <div className="contact" id="contact"> 
-      <h1>Contact me</h1>
+      <h1>CONTACT ME</h1>
       <div className={classes.root} noValidate >
         <CssTextField
           className={classes.margin}
