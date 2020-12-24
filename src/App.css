@@ -450,15 +450,19 @@ footer {
 @media only screen and (min-width: 1026px) and (max-width: 1551px) {
 .portfolio__container--project--image{
   width:40vw;
-  height: 60vh
+  height: 58vh
 }
 .tech{
   width:40vw;
-  height: 60vh;
-  padding:0
+  height: 58vh;
+  padding:0;
+  
+}
+.tech__content{
+  padding: 0;
 }
 .portfolio__container--desc{
-  height:6em
+  height:10em
 }
 .portfolio__container--project--tech{
   height:3vw
