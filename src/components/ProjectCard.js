@@ -1,21 +1,18 @@
-import React from 'react';
-import GitHubIcon from '@material-ui/icons/GitHub';
+import React from "react";
+import GitHubIcon from "@material-ui/icons/GitHub";
+
 const ProjectCard = (props) => {
   return (
     <div className="portfolio__container--project">
-      <div className="project">
-        <picture>
-          <source srcSet={props.we} type="image/webp" />
-          <source srcSet={props.jp} type="image/jp2" />
-          <source srcSet={props.pn} type="image/png" />
-          <img
-            className="portfolio__container--project--image"
-            src={props.image}
-            alt="Piotr Mrozowski"
-          />
-        </picture>
-        
-      </div>
+      <div
+        className="project"
+        style={{
+          backgroundImage: `url(${props.image})`,
+          backgroundPosition: "center center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
+      ></div>
       <div className="tech">
         <div className="tech__desc">
           <h2>{props.title}</h2>
@@ -24,15 +21,15 @@ const ProjectCard = (props) => {
             {props.linkDesc}
             <br />
           </a>
-          <br/>
+          <br />
           <a href={props.gitLink} target="blank">
-            <GitHubIcon/>
+            <GitHubIcon />
           </a>
-          <br/>
+          <br />
           <br />
           <p
             className="portfolio__container--desc"
-            style={{ overflowY: 'scroll' }}
+            style={{ overflowY: "scroll" }}
           >
             {props.desc}
           </p>
@@ -45,7 +42,6 @@ const ProjectCard = (props) => {
               <img
                 className="portfolio__container--project--tech"
                 src={props.stack1}
-               
               />
               <span className="tech__image--tooltip">{props.tooltip1}</span>
             </div>
@@ -53,7 +49,6 @@ const ProjectCard = (props) => {
               <img
                 className="portfolio__container--project--tech"
                 src={props.stack2}
-                
               />
               <span className="tech__image--tooltip">{props.tooltip2}</span>
             </div>
@@ -61,7 +56,6 @@ const ProjectCard = (props) => {
               <img
                 className="portfolio__container--project--tech"
                 src={props.stack3}
-                
               />
               <span className="tech__image--tooltip">{props.tooltip3}</span>
             </div>
@@ -69,7 +63,6 @@ const ProjectCard = (props) => {
               <img
                 className="portfolio__container--project--tech"
                 src={props.stack4}
-                
               />
               <span className="tech__image--tooltip">{props.tooltip4}</span>
             </div>
@@ -77,7 +70,6 @@ const ProjectCard = (props) => {
               <img
                 className="portfolio__container--project--tech"
                 src={props.stack5}
-                
               />
               <span className="tech__image--tooltip">{props.tooltip5}</span>
             </div>
@@ -85,7 +77,6 @@ const ProjectCard = (props) => {
               <img
                 className="portfolio__container--project--tech"
                 src={props.stack6}
-                
               />
               <span className="tech__image--tooltip">{props.tooltip6}</span>
             </div>
@@ -93,7 +84,6 @@ const ProjectCard = (props) => {
               <img
                 className="portfolio__container--project--tech"
                 src={props.stack7}
-                
               />
               <span className="tech__image--tooltip">{props.tooltip7}</span>
             </div>
@@ -101,7 +91,6 @@ const ProjectCard = (props) => {
               <img
                 className="portfolio__container--project--tech"
                 src={props.stack8}
-                
               />
               <span className="tech__image--tooltip">{props.tooltip8}</span>
             </div>
@@ -109,7 +98,6 @@ const ProjectCard = (props) => {
               <img
                 className="portfolio__container--project--tech"
                 src={props.stack9}
-                
               />
               <span className="tech__image--tooltip">{props.tooltip9}</span>
             </div>

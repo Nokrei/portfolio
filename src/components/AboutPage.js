@@ -1,14 +1,12 @@
-import React from 'react';
-import personalJp from '../images/personal.jp2';
-import personalPn from '../images/personal.png';
-import personalWe from '../images/personal.webp';
+import React from "react";
+import personalJp from "../images/personal.jp2";
+import personalPn from "../images/personal.png";
+import personalWe from "../images/personal.webp";
 
 const AboutPage = () => {
   return (
     <div className="aboutPage" id="aboutPage">
-     
       <div className="aboutPage__container">
-        
         <h1>ABOUT ME</h1>
 
         <br />
@@ -32,25 +30,30 @@ const AboutPage = () => {
             >
               LinkedIn
             </a>
-            ,{' '}
+            ,{" "}
             <a
               className="animateUnderline"
               href="mailto:pmrozowski87@gmail.com"
             >
               email me
-            </a>{' '}
-            or use the{' '}
+            </a>{" "}
+            or use the{" "}
             <a className="animateUnderline" href="#contact">
               Contact form
-            </a>{' '}
+            </a>{" "}
             below.
+            
           </p>
-          
+
           <picture className="personalPic__container">
             <source srcSet={personalWe} type="image/webp" />
             <source srcSet={personalJp} type="image/jp2" />
             <source srcSet={personalPn} type="image/png" />
-            <img className="personalPic" src={personalPn} alt="Piotr Mrozowski" />
+            <img
+              className="personalPic"
+              src={personalPn}
+              alt="Piotr Mrozowski"
+            />
           </picture>
         </div>
       </div>
